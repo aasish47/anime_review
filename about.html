@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animne Review | About Us</title>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="about.css">
+        <script src="script.js"></script>
+        <!-- <link rel="stylesheet" href=""> -->
+
+
+
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Anime Reviews</h1>
+        </div>
+        <nav>
+            <div class="navbar">
+                <ul>
+                    <a href="index.html" id="home" target="_self">Home</a>
+                    <a href="about.html" id="about" target="_self">About</a>
+                    <a href="contact.html" id="contact" target="_self">Contact us</a>
+                </ul>
+            </div>
+        </nav>
+
+    
+        <div class="about">
+            <h2>About Us</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat omnis ratione necessitatibus optio numquam deserunt id, iure voluptas esse illum incidunt, quia ex eaque magnam aperiam ipsam excepturi minus iusto ipsa sapiente alias? Eius architecto exercitationem, neque ullam harum consequuntur accusamus ipsa, dolor officia, quibusdam delectus! Earum esse rem delectus sed labore modi quaerat exercitationem vel nulla non, impedit ut, officiis aut eligendi libero dolores similique vero. Quam, adipisci. Saepe vel deleniti, quo praesentium ipsam quia nobis dolor, dolores veniam atque nam aliquid. Tempora praesentium amet expedita blanditiis eaque consequatur debitis laudantium eveniet enim perferendis neque eos, id iste.
+        </div>
+
+        <div class="dev">
+            <h2>Developers:</h2>
+            <div class="w3-content slide-section" style="max-width:500px">
+                <img class="mySlides" src="img/photo_2022-10-10_22-47-15.jpg" style="width:100%">
+                <img class="mySlides" src="img/photo_2022-10-10_23-26-14.jpg" style="width:100%">
+                <img class="mySlides" src="img/Snapchat-1734094654.jpg" style="width:100%">
+            </div>
+        </div>
+
+        <!-- <div class="team">
+            <div class="members">
+                <img src="img/photo_2022-10-10_22-47-15.jpg" alt="image">
+                <h2>Amiya Maity</h2>
+            </div>
+            <div class="members">
+                <img src="/img/photo_2022-10-10_23-26-14.jpg" alt="image">
+                <h2>Manas Kumar Nayak</h2>
+            </div>
+            <div class="members">
+                <img src="/img/Snapchat-1734094654.jpg" alt="image">
+                <h2>Aasish Kumar Sahoo</h2>
+            </div>
+        </div> -->
+
+
+        
+    
+    
+        <footer>
+            <div class="foot">
+                <div class="para-foot">
+                    <p>Copyright © 2002 - 2022 All rights reserved</p>
+                </div>
+                <div class="foot-logos">
+                    <div>
+                        <a href="" target="_blank"><img src="logo/gmail_colored-icon.svg" alt="logo-image"></a>
+                    </div>
+                    <div>
+                        <a href="https://t.me/Aasish_47" target="_blank"><img src="logo/telegram_colored-icon.svg" alt="logo-image"></a>
+                    </div>
+                    <div>
+                        <a href=""><img src="logo/linkedin_colored-icon.svg" alt="logo-image"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/_aseeesh_/" target="_blank"><img src="logo/instagram_colored-icon.svg" alt="logo-image"></a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/aasish.sahoo.47" target="_blank"><img src="logo/facebook_colored-icon.svg" alt="logo-image"></a>
+                    </div>
+                    <div>
+                        <a href="tel: +91 9937319931"><img src="logo/call-icon-round.svg" alt="logo-image"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+            }   
+        </script>
+
+
+    </body>

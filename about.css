@@ -1,0 +1,72 @@
+/* default */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* heading */
+.heading{
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+}
+/* body */
+.about{
+color: white;    
+}
+.foot{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.about h2{
+    margin: 10px;
+    padding: 4px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: dotted;
+}
+.team{
+    color: white;
+    margin: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+.members{
+    /* border: 2px solid white; */
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    width: 25%;
+}
+.members h2{
+    text-align: center;
+}
+.dev{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.members img{
+    width: 100%;
+    height: 90vh;
+    /* width: 40px; */
+   
+}
+.slide-section{
+    width: 15%;
+    padding: 10px;
+    margin: 20px;
+}
+@media(max-width:480px){
+    .slide-section{
+        width: 45%;
+        padding: 10px;
+        margin: 20px;
+    }
+}

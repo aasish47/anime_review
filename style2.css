@@ -1,0 +1,16 @@
+.box{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px; */
+    /* margin: auto; */
+}
+.para{
+    margin: 10px;
+    text-align: center;
+}
+.vid{
+    /* width: 300px; */
+    /* margin: auto; */
+    height: 300px;
+}
